@@ -1,0 +1,59 @@
+body
+{
+    background: #3291a8;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    background-color:chocolate;
+    margin: auto;
+    justify-content: center;
+    float: none;
+}
+
+#Word{
+    width:60%;
+}
+#word display
+{
+    letter-spacing: 5px;
+}
+#output
+{
+    border-radius: 10px;
+    border top: 10px solid black;
+    padding: 10px;
+    float: none;
+    text-align:center;
+}
+input[type="text1"], input[type="text2"]{
+    width:100%;
+    padding:10px;
+    margin: 10px;
+    border: 1px solid #cca;
+    background-color: #f7f7f7;
+    font-size: 13px;
+}
+label{
+    font-weight: bold;
+    color:#555;
+    margin-bottom: 5px;
+    
+}
+put[type="login"]{
+    background-color: #3498db;
+    color: white;
+    padding:10px 20px;
+    border: none;
+    cursor: pointer;
+}
+input[type="login"]:hover{
+    background-color: #2183b8;
+}
+input:invalid{
+    border: 1px solid #e74c3c;
+}
+input::placeholder{
+    color:#999;
+}
